@@ -1,0 +1,39 @@
+{
+  "name": "mcp-icloud-gcal-sync",
+  "version": "1.0.0",
+  "description": "MCP server for continuous synchronization from iCloud Calendar to Google Calendar with automatic scheduling and duplicate detection",
+  "main": "src/icloud_gcal_sync.py",
+  "scripts": {
+    "start": "python src/icloud_gcal_sync.py"
+  },
+  "keywords": [
+    "mcp",
+    "calendar",
+    "icloud",
+    "google-calendar",
+    "sync",
+    "automation",
+    "macos"
+  ],
+  "author": "tgunr",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tgunr/mcp-icloud-gcal-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tgunr/mcp-icloud-gcal-sync/issues"
+  },
+  "homepage": "https://github.com/tgunr/mcp-icloud-gcal-sync#readme",
+  "os": ["darwin"],
+  "engines": {
+    "python": ">=3.8"
+  },
+  "mcp": {
+    "server": {
+      "command": "python",
+      "args": ["src/icloud_gcal_sync.py"],
+      "env": {}
+    }
+  }
+}
