@@ -1,3 +1,8 @@
 mcp>=1.0.0
 asyncio
 typing-extensions
+
+# Google Calendar API dependencies (optional)
+google-api-python-client>=2.0.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=0.5.0
